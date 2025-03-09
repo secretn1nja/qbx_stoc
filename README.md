@@ -49,4 +49,8 @@ Restart your server and enjoy the STOC experience!
 # Support
 For support, bug reports, or feature requests, please open an issue on the GitHub repository.
 
+# Coming Soon
+System Core Tablet with highly configuration and custom UI
+Operations based on custom generated missions with different difficulties, categories and special duties.
+
 Enjoy commanding your elite tactical unit with the STOC script! 🚁🚔
