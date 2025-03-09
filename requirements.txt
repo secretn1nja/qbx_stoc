@@ -1,0 +1,32 @@
+ITEMS:
+
+['access_keycard'] = { label = 'Keycard', description = 'A keycard to access restricted areas.', weight = 10, allowArmed = true, stack = false, close = true, },
+
+qbx_stoc/image/access_keycard.png   to   ox_inventory/web/images
+
+JOB:
+
+add in qbx_core/shared/jobs.lua 
+
+['stoc'] = {
+        label = 'Special Tactical Operations Command',
+        type = 'nd',
+        defaultDuty = false,
+        offDutyPay = false,
+        grades = {
+            [0] = { name = 'Recruit',payment = 1750 },
+            [1] = { name = 'Operative', payment = 2400 },
+            [2] = { name = 'Sergeant', payment = 3300 },
+            [3] = { name = 'Lieutenant', payment = 5500 },
+            [4] = { name = 'Commander', payment = 8600 },
+            [5] = { name = 'General', isboss = true, payment = 14000 },
+        },
+    },
+
+MLO:
+
+area-69 is a separated resource which has as role to load a custom mlo as a seret undergorund base under Fort Zancudo military base, has to entryes (1. stairs/elevator, 2.vehicle tunnel)
+
+OPTIONAL's:
+
+ox_doorlocks sql file for all necessary files in located in requirements folder
