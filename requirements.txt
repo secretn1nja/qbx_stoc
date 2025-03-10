@@ -27,6 +27,8 @@ MLO:
 
 area-69 is a separated resource which has as role to load a custom mlo as a seret undergorund base under Fort Zancudo military base, has to entryes (1. stairs/elevator, 2.vehicle tunnel)
 
+https://www.gta5-mods.com/maps/mlo-area-69-add-on-sp-crazymodder127
+
 OPTIONAL's:
 
 ox_doorlocks sql file for all necessary files in located in requirements folder
